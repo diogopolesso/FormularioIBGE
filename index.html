@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Formulario IBGE</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+	<body>
+        <main>
+            <section>
+                <form>    
+                    <div class="card">
+                        <div class="card-body">
+                            <fieldset><legend>Formulário</legend>
+                            </fieldset>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="nome">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="sobrenome" class="form-label">Sobrenome</label>
+                                    <input type="text" class="form-control" id="sobrenome">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cep" class="form-label">CEP</label>
+                                    <input type="text" class="form-control" id="cep">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="rua" class="form-label">Endereço</label>
+                                    <input type="text" class="form-control" id="rua">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="numero" class="form-label">Numero</label>
+                                    <input type="text" class="form-control" id="numero">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Bairro" class="form-label">Bairro</label>
+                                    <input type="text" class="form-control" id="bairro">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="uf">Estado</label>
+                                    <select id="uf">
+                                        <option></option>
+                                    </select>
+                                    <label for="cidade">Cidade</label>
+                                    <select id="cidade">
+                                        <option></option>
+                                    </select>
+                                </div>
+                        </div>
+                    </div>
+                </form>
+            </section>                    
+        </main>
+        <script src="appCep.js" type="text/javascript"></script>
+        <script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
