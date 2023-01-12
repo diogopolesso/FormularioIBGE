@@ -1,6 +1,6 @@
 # **Teste Formulario IBGE**
 
-Nesse conteudo vc pode ver como trabalhei o codigo para um formulario simples com base de dados do IBGE 
+Nesse conteudo vc pode ver o desenvolvimento de um formulario simples com base de dados do IBGE.
 
 ****
 
@@ -11,6 +11,7 @@ Nesse conteudo vc pode ver como trabalhei o codigo para um formulario simples co
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/
 - https://releases.jquery.com/
 
+Nota: Este Projeto esta em Desenvolvimento.
 ****
 
 **Linguagens Utilizadas:**
